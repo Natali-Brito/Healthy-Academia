@@ -45,15 +45,13 @@
 
 	<script type="text/javascript" src="js/progressbar.min.js"></script>
 
-	<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
-
 </head>
 <body>
 
 	<!-- Menu Principal -->
 	<header>
 		<div class="container" id="nav-container">
-			<nav class="navbar navbar-expand-lg fixed-top">
+			<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
 				<a href="#" class="navbar-brand">
 					<img src="img/logo.png" id="logo" alt="Logo">Healthy Academia
 				</a>
@@ -64,11 +62,11 @@
 				<div class="collapse navbar-collapse justify-content-end" id="navbar-links">
 					<div class="navbar-nav">
 						<a href="" class="nav-item nav-link" id="home-menu">Home</a>
-						<a href="" class="nav-item nav-link" id="about-menu">Sobre</a>
-						<a href="" class="nav-item nav-link" id="services-menu">Serviços</a>
-						<a href="" class="nav-item nav-link" id="team-menu">Time</a>
-						<a href="" class="nav-item nav-link" id="project-menu">Projetos</a>
-						<a href="" class="nav-item nav-link" id="contact-menu">Contato</a>
+						<a href="#about-area" class="nav-item nav-link" id="about-menu">Sobre</a>
+						<a href="#modality-area" class="nav-item nav-link" id="services-menu">Modalidades</a>
+						<a href="#team-area" class="nav-item nav-link" id="team-menu">Profissionais</a>
+						<a href="#plans-area" class="nav-item nav-link" id="project-menu">Planos</a>
+						<a href="#contact-area" class="nav-item nav-link" id="contact-menu">Contato</a>
 					</div>
 				</div>
 			</nav>
@@ -86,7 +84,7 @@
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
 		      <img src="img/academia1.jpg" class="d-block w-100" alt="...">
-		      <div class="carousel-caption d-none d-md-block">
+		      <div class="carousel-caption d-md-block">
 		      	 <h2>Quer começar a treinar?</h2>
 			      <p>Conte com um espaço perfeito para manter a sua rotina completa de exercicios com todo conforto e cuidado que você merece.</p>
 			      <a href="#" class="main-btn">Matricule-se</a>
@@ -122,58 +120,58 @@
 						<p>Nós acreditamos que uma rotina de exercícios é fundamental para manter a saúde do corpo e da mente e garantir mais disposição para encarar uma rotina cheia e atarefada. Nascemos com a missão de construir um ambiente motivador, equipado e com profissionais muito bem preparados para atender as necessidades de cada aluno e ajuda-los a atingir seus objetivos. Entendemos que a regularidade nos exercícios é uma prática recomendada pela OMS que ajuda a ter uma vida mais saudável diminuindo as chances de ficar doente e gradativamente aumentando a chance de alcançar uma vida longa com qualidade.</p>
 						<p>A academia será a sua aliada e está esperando o que para começar?</p>
 						<ul class="about-list">
-							<li><i class="fas fa-check"></i> Melhora a flexibilidade e a postura.</li>
+							<li><i class="fas fa-check"></i>Melhora a flexibilidade e a postura.</li>
 							<li><i class="fas fa-check"></i>Perda de gordura localizada e ganho de músculos.</li>
-							<li><i class="fas fa-check"></i> Reduz o risco de hipertensão, osteoporose, diabetes e colesterol.</li>
-							<li><i class="fas fa-check"></i> Fortalece os ossos e o sistema imunologico.</li>
-							<li><i class="fas fa-check"></i> Acelera o metabolismo.</li>
-							<li><i class="fas fa-check"></i> Alivia o estresse.</li>
+							<li><i class="fas fa-check"></i>Reduz o risco de hipertensão, osteoporose, diabetes e colesterol.</li>
+							<li><i class="fas fa-check"></i>Fortalece os ossos e o sistema imunologico.</li>
+							<li><i class="fas fa-check"></i>Acelera o metabolismo.</li>
+							<li><i class="fas fa-check"></i>Alivia o estresse.</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-	<!-- Serviços da Empresa -->
-		<div id="services-area">
+	<!-- Modalidades -->
+		<div id="modality-area">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<h3 class="main-title">Nossas Modalidades</h3>
+						<h3 class="main-title">Modalidades</h3>
 					</div>
-					<div class="col-md-4 service-box">
+					<div class="col-md-4 modality-box">
 						<i class="fas fa-running"></i>
 						<h4>Ginastica</h4>
 						<p>Série de exercícios, com grande número de repetições que requer força, flexibilidade e coordenação motora onde se trabalham grupos musculares diferentes. A ginástica fortalece os músculos, melhora a coordenação motora e aumenta a capacidade cardiorrespiratória.</p>
 					</div>
-					<div class="col-md-4 service-box">
+					<div class="col-md-4 modality-box">
 						<i class="fas fa-heartbeat"></i>
 						<h4>Cardio</h4>
 						<p>Exercícios que tem como objetivo aumentar o ritmo cardíaco, melhorando o funcionamento do sistema cardiovascular e o aumento da resistência física.</p> 
 					</div>
-					<div class="col-md-4 service-box">
+					<div class="col-md-4 modality-box">
 						<i class="fas fa-dumbbell"></i>
 						<h4>Musculação</h4>
 						<p>Treinamento físico realizado contra resistência de pesos externos com halteres ou aparelhos específicos que tem como objetivos a hipertrofia, resistência muscular, fortalecimento e prevenção da musculatura a fim de evitar lesões.</p>
 					</div>
-					<div class="col-md-4 service-box">
-						<i class="fas fa-google"></i>
+					<div class="col-md-4 modality-box">
+						<i><img src="img/sitting.png" width="45px"></i>
 						<h4>Treinamento Funcional</h4>
 						<p>Exercícios que trabalham várias capacidades físicas de maneira integrada e simultâneas, feitos com o peso do corpo, pesos livres e acessórios proporcionando um trabalho corporal mais globalizado e completo.</p> 
 					</div>
-					<div class="col-md-4 service-box">
-						<i class="fas fa-hands-helping"></i>
+					<div class="col-md-4 modality-box">
+						<i class="fas fa-drum"></i>
 						<h4>Dança</h4>
 						<p>É uma ótima atividade física que aumenta a flexibilidade, melhora o condicionamento físico e aeróbico, fortalece a capacidade cardiorrespiratória, protege as articulações e ajuda a corrigir problemas de postura, além disso também ajuda a relaxar e aliviar o estresse do dia a dia.</p>
 					</div>
-					<div class="col-md-4 service-box">
-						<i class="fa-duotone fa-uniform-martial-arts"></i>
+					<div class="col-md-4 modality-box">
+						<i><img src="img/kimono.png" width="45px"></i>
 						<h4>Artes Marciais</h4>
 						<p>Conjunto de técnicas de luta corpo a corpo com diversos benefícios para o corpo e mente como agilidade, resistência, potência muscular e concentração que podem ser utilizadas para defesa pessoal em qualquer situação de perigo.</p> 
 					</div>
 				</div>
 			</div>
 		</div>
-	<!-- Dados da Empresa -->
+	<!-- Dados-->
 		<div id="data-area">
 			<div class="container">
 				<div class="row">
@@ -198,8 +196,11 @@
 		</div>
 
 	<!-- Time -->
-		<div class="team-area">
+		<div id="team-area">
 			<div class="container">
+				<div class="col-12">
+					<h3 class="main-title">Profissionais</h3>
+				</div>
 		        <div class="owl-carousel owl-theme">
 		            <div class="ms-2 me-2">
 		                <div class="card">
@@ -259,58 +260,58 @@
 					<div class="col-12">
 						<h3 class="main-title">Nossos Planos</h3>
 					</div>
-					<div class="col-sm">
+					<div class="col-md-4">
 						<div class="card">
-							<div class="card-body teste" id="card-plan1">
+							<div class="card-body" id="card-plan1">
 								<h3 class="card-title">Plano Healthy</h3>
 								<p id="plan-p1">R$ <span>89,90</span> MENSAIS</p>
 							</div>
 							<ul class="about-list">
-								<li><i class="fas fa-check"></i> Acesso ilimitado a todas as areas da academia</li>
-								<li><i class="fas fa-check"></i> Sem restrição de horários</li>
-								<li><i class="fas fa-check"></i> Aulas de Ginastica</li>
-								<li><i class="fas fa-check"></i> Musculação e Cardio</li>
-								<li><i class="fas fa-check"></i> Sem multas ou taxas de cancelamento</li>
+								<li><i class="fas fa-check"></i>Acesso ilimitado a todas as areas da academia</li>
+								<li><i class="fas fa-check"></i>Sem restrição de horários</li>
+								<li><i class="fas fa-check"></i>Aulas de Ginastica</li>
+								<li><i class="fas fa-check"></i>Musculação e Cardio</li>
+								<li><i class="fas fa-check"></i>Sem multas ou taxas de cancelamento</li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm">	
+					<div class="col-md-4">	
 						<div class="card">
-							<div class="card-body teste" id="card-plan2">
+							<div class="card-body" id="card-plan2">
 								<h3 class="card-title">Plano Gold</h3>
 								<p id="plan-p2">R$ <span>119,90</span> MENSAIS</p>
 								
 							</div>
 							<ul id="plan-list2" class="about-list">
-								<li><i class="fas fa-check"></i> Treine em qualquer unidade</li>
-								<li><i class="fas fa-check"></i> Acesso ilimitado a todas as areas da academia</li>
-								<li><i class="fas fa-check"></i> Sem restrição de horários</li>
-								<li><i class="fas fa-check"></i> Aulas de Ginastica</li>
-								<li><i class="fas fa-check"></i> Musculação e Cardio</li>
-								<li><i class="fas fa-check"></i> Treinamento Funcional</li>
-								<li><i class="fas fa-check"></i> Dança</li>
-								<li><i class="fas fa-check"></i> Sem multas ou taxas de cancelamento</li>
+								<li><i class="fas fa-check"></i>Treine em qualquer unidade</li>
+								<li><i class="fas fa-check"></i>Acesso ilimitado a todas as areas da academia</li>
+								<li><i class="fas fa-check"></i>Sem restrição de horários</li>
+								<li><i class="fas fa-check"></i>Aulas de Ginastica</li>
+								<li><i class="fas fa-check"></i>Musculação e Cardio</li>
+								<li><i class="fas fa-check"></i>Treinamento Funcional</li>
+								<li><i class="fas fa-check"></i>Dança</li>
+								<li><i class="fas fa-check"></i>Sem multas ou taxas de cancelamento</li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm">	
+					<div class="col-md-4">	
 						<div class="card">
-							<div class="card-body teste" id="card-plan3">
+							<div class="card-body" id="card-plan3">
 								<h3 class="card-title">Plano Premium</h3>
 								<p id="plan-p3">R$ <span>149,90</span> MENSAIS</p>
 								
 							</div>
 							<ul id="plan-list3" class="about-list">
-								<li><i class="fas fa-check"></i> Treine em qualquer unidade</li>
-								<li><i class="fas fa-check"></i> Acesso ilimitado a todas as areas da academia</li>
-								<li><i class="fas fa-check"></i> Sem restrição de horários</li>
-								<li><i class="fas fa-check"></i> Aulas de Ginastica</li>
-								<li><i class="fas fa-check"></i> Musculação e Cardio</li>
-								<li><i class="fas fa-check"></i> Treinamento Funcional</li>
-								<li><i class="fas fa-check"></i> Dança</li>
-								<li><i class="fas fa-check"></i> Artes marciais</li>
-								<li><i class="fas fa-check"></i> Leve amigos pra treinar com você</li>
-								<li><i class="fas fa-check"></i> Sem multas ou taxas de cancelamento</li>
+								<li><i class="fas fa-check"></i>Treine em qualquer unidade</li>
+								<li><i class="fas fa-check"></i>Acesso ilimitado a todas as areas da academia</li>
+								<li><i class="fas fa-check"></i>Sem restrição de horários</li>
+								<li><i class="fas fa-check"></i>Aulas de Ginastica</li>
+								<li><i class="fas fa-check"></i>Musculação e Cardio</li>
+								<li><i class="fas fa-check"></i>Treinamento Funcional</li>
+								<li><i class="fas fa-check"></i>Dança</li>
+								<li><i class="fas fa-check"></i>Artes marciais</li>
+								<li><i class="fas fa-check"></i>Leve amigos pra treinar com você</li>
+								<li><i class="fas fa-check"></i>Sem multas ou taxas de cancelamento</li>
 							</ul>
 						</div>
 					</div>	
@@ -318,65 +319,71 @@
 			</div>
 		</div>
 
-	<!-- Portfólio -->
-		<!-- <div id="portf-area">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="main-title">Conheça nossos projetos</h3>
-					</div>
-					<div id="filter-btn-box" class="col-md-12">
-						<button class="main-btn filter-btn active" id="all-btn">Todos</button>
-						<button class="main-btn filter-btn" id="dev-btn">Desenvolvimento</button>
-						<button class="main-btn filter-btn" id="dsg-btn">Designer</button>
-						<button class="main-btn filter-btn" id="seo-btn">SEO</button>
-					</div>
-					<div class="col-md-4 project-box dev">
-						<img class="img-fluid" src="0.jpg" alt="">
-					</div>
-					<div class="col-md-4 project-box dsg">
-						<img class="img-fluid" src="1.jpg" alt="">
-					</div>
-					<div class="col-md-4 project-box seo">
-						<img class="img-fluid" src="2.png" alt="">
-					</div>
-					<div class="col-md-4 project-box dev">
-						<img class="img-fluid" src="0.jpg" alt="">
-					</div>
-					<div class="col-md-4 project-box dsg">
-						<img class="img-fluid" src="1.jpg" alt="">
-					</div>
-					<div class="col-md-4 project-box seo">
-						<img class="img-fluid" src="2.png" alt="">
-					</div>			
-				</div>
-			</div>
-		</div>	 -->
 	<!-- Newsletter -->	
 		<div id="news-area">
 			<div class="container">
 				<div class="col-md-12">
 					<h3 class="main-title">Fique por dentro das novidades.</h3>
 				</div>
-				<p>Assine nossa lista de e-mails e receba nossos conteudos sobre desenvolvimento de software.</p>
+				<p>Receba novidades e promoções exclusivas da Healthy.</p>
 				<form action="">
-					<input type="email" class="form-control" id="email-input" name="email" placeholder="email@dominio.com">
+					<input type="email" class="form-control" id="email-input" name="email" placeholder="Informe seu e-mail">
 					<input type="submit" id="news-btn" value="Inscrever">
 				</form>
 			</div>
 		</div>
-		<!-- Call to action -->	
-		<div id="call-area">
+	</main>
+	<!-- Rodapé -->
+	<footer>
+		<div id="contact-area">
 			<div class="container">
 				<div class="row">
-					<p>Deseja fazer um orçamento sem compromisso?</p>
-					<button class="main-btn" id="call-btn">Orçar</button>
+					<div class="col-md-12">
+						<h3 class="main-title">Ficou com alguma duvida? Entre em contato conosco</h3>
+					</div>
+					<div class="col-md-3 contact-box">
+						<i class="fab fa-whatsapp"></i>
+						<a><p>71 99321-0000</p></a>
+					</div>
+					<div class="col-md-3 contact-box">
+						<i class="far fa-envelope"></i>
+						<p> informacoes@healthy.com.br</p>
+					</div>
+					<div class="col-md-3 contact-box">
+						<i class="fas fa-map-marked-alt"></i>
+						<p>Rua Lorem Ipsum 1245, Fitlandia,<br>Salvador-Ba<br>CEP:78632-077</p>
+					</div>
+					<div class="col-md-3 contact-box">
+						<i class="far fa-clock"></i>
+						<p>05:30h - 22:00h</p>
+					</div>
+					<div class="col-md-6" id="msg-box">
+						<p>Caso prefira, deixe sua mensagem:</p>
+					</div>
+					<div class="col-md-6" id="contact-form">
+						<form action="">
+							<input type="email" name="email" class="form-control" placeholder="Email">
+							<input type="text" name="subject" class="form-control" placeholder="Assunto">
+							<textarea name="message" class="form-control" rows="3" placeholder="Sua mensagem..."></textarea>
+							<input type="submit" value="Enviar" class="main-btn">
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
-	</main>
+		<div id="copy-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p>Desenvolvido por <span>Natali Brito</span> &copy; 2021</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
 <script src="js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </script> 
 </body>
 </html>
